@@ -4,11 +4,11 @@
 - AI is new and daunting to many
 - Many have established methodologies that help ensure success
 ### Program
-- [Input] --> [Processing: Constants & Vars] --> [Output]
+- [Input] --> [Processing: Constants & Vars] --> [Output]  Linear
 ### AI
-- [Input] --> [Processing: Constants, Vars, InfoLearnt] <--> [Program] --> [Learnt Data]
+- [Input] --> [Processing: Constants, Vars, InfoLearnt] <--> [Program] --> [Learnt Data]  Complex
 ## Steps To Build ML MOdel:
-1. **Understand & Identify The Business Problem**:
+1. **Understand & Identify The Business Problem (Business Context)**:
   - Understand and identify the business problem and define success
   - Get a firm grasp of the business project's objectives and requirements
   - set specific quantifiable goals.
