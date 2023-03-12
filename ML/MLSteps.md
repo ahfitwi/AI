@@ -92,6 +92,8 @@
   - 
 ### 6. Performance/Hyperparameter Tunning
   -
+## Summary
+Concluding the article, I took a look at the common steps of ML model creation/construction/building from data collection through hyperparameter tuning, and different types of machine learning paradigms. I went through supervised, unsupervised and reinforcement learning algorithms. I also discussed the several common algorithms that are part of these three categories accompanied by their various real-life applications.
 
 # Side Notes:
 ## Extrapolation:
