@@ -58,18 +58,34 @@
             - City Planning
             - Targeting Marketing
         - Important algorithms that come under Unsupervised Learning.
-          - **Clustering (cluster analysis)** is a technique of grouping similar sets of objects in the same group that is different from the objects in other group.
-          - Some of the essential clustering techniques are as follows:
-            - **K-Means**: cluster data to k clusters with the nearest mean
-          - c
-          
-        -n
+          - **Clustering (cluster analysis)** is a technique of grouping similar sets of objects in the same group that is different from the objects in other group. Some of the essential clustering techniques are as follows:
+            - **K-Means**: cluster data to k clusters with the nearest mean.
+            - **DBSCAN**: groups the data based on the density. It groups together the points that are given in the space and marks the outliers in the low-density region.
+            - **Hierarchical clustering**: In this form of clustering, a hierarchy of clusters is built.
+            - **Anomaly Detection**: these techniques detect outliers in the unlabeled data under an assumption that most of the data examples are normal by observing the instances that fit the remainder of the data set.
+            - **Autoencoders**: A type of Neural Networks that are used in Unsupervised Learning for representation learning. They are used in denoising and dimensionality reduction.
+            - **Deep Belief Network**: It is a generative graphical model which is also a class of neural network designed for unsupervised learning. It is different from the supervised type of neural networks in the sense that it probabilistically reconstructs its inputs to act as feature detectors.
+            - **Principal Component Analysis**: It is a class of unsupervised learning paradigm which is used for reducing the dimensions of the data.
+        - **Unsupervised Learning Use Case**: One of the most popular unsupervised learning techniques is **clustering**. Using clustering, businesses are able to capture potential customer segments for selling their products.
+          - Sales companies are able to identify customer segments that are most likely to use their services. Companies can evaluate the customer segments and then decide to sell their product to maximize the profits.
+          - One such company that is performing brand marketing analytics using Machine Learning is an Israeli based startup – Optimove. The goal of this company is to ingest and process the customer data in order to make it accessible to the marketers.
+          - They take it one step further by providing smart insights to the marketing team, allowing them to reap the maximum profit out of their product marketing.
       4. **Reinforcement Learning**: Trial and Error
-        - Gaming
-        - Finance Sector
-        - Manufacturing
-        - Inventory Management
-        - Robot Navigation
+        - covers more area of Artificial Intelligence which allows machines to interact with their dynamic environment in order to reach their goals. With this, machines and software agents are able to evaluate the ideal behavior in a specific context.
+        - With the help of this reward feedback, agents are able to learn the behavior and improve it in the longer run. This simple feedback reward is known as a reinforcement signal.
+        - The agent in the environment is required to take actions that are based on the current state. This type of learning is different from Supervised Learning in the sense that the training data in the former has output mapping provided such that the model is capable of learning the correct answer. Whereas, in the case of reinforcement learning, there is no answer key provided to the agent when they have to perform a particular task. When there is no training dataset, it learns from its own experience.
+        - Reinforcement Learning Use Case:
+          - Google’s Active Query Answering (AQA) system makes use of reinforcement learning.It reformulates the questions asked by the user.
+          - For example, if you ask the AQA bot the question – “What is the birth date of Nikola Tesla” then the bot would reformulate it into different questions like “What is the birth year of Nikola Tesla”, “When was Tesla born?” and “When is Tesla’s birthday”.
+          - This process of reformulation utilized the traditional sequence2sequence model, but Google has integrated reinforcement Learning into its system to better interact with the query based environment system.
+          - This is a deviation from the traditional seq2seq model such that all the tasks are carried out using reinforcement learning and policy gradient methods. That is, for a given question q0, we want to obtain the best possible answer a*.
+          - The goal is to maximize the award $a* = argmaxa R(ajq0)$.
+          - Others:
+            - Gaming
+            - Finance Sector
+            - Manufacturing
+            - Inventory Management
+            - Robot Navigation
 ### 4. Model Training
   - 
 ### 5. Performance Evaluation
@@ -84,3 +100,15 @@
 ## Interpolation:
   - refers to predicting values that are inside of a range of data points.
   - the act of estimating a value within two known values that exist within a sequence of values.
+
+## 8 Types of Customer Segmentations
+  - Demographic (Age, Gender, Income, Education, Social Status, Family, Life Stage, Occupation)
+  - Geographic (country, city, Density, Language, Climate, Area, Population)
+  - Behavioral (Benefits Sought, Purchase, Usage, Intent, Occasion, Buyer Stage, User Stattus, Life Cycle Stage, Engagement)
+  - Value-based
+  - Needs-based
+  - Technographic
+  - Psychographic (Lifestyle, AIO, Concerns, Personality, Value, Attitudes)
+  - Life Cycle Stage
+## 
+##
