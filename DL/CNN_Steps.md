@@ -17,7 +17,7 @@
 3. **Activation Functions**: decides whether a neuron should be activated or not. This means that it will decide whether the neuron's input to the network is important or not in the process of prediction using simpler mathematical operations.
   - Linear: $f(x) = x$
   - Tanh: $tanh(x)$
-  - Rectified Linear Unit: ReLU--> $max(0, x); Leaky\ ReLU --> max(\epislon z, z); ELU --> max(\alpha(e^z-1), z)$
+  - Rectified Linear Unit: ReLU--> $max(0, x); Leaky\ ReLU --> max(\epsilon z, z); ELU --> max(\alpha(e^z-1), z)$
   - Sigmoid: $\sigma(x) = \frac{1}{1+e^{-x}}$
   - SOftmax: $p = \begin{bmatrix} p_1 \\ . \\ . \\ . \\ p_n \end{bmatrix}$, where $p_i = \frac{e^{x_i}}{\sum_{j=1}^n e^{x_j}}$
 5. **Hyperparameters Filtering**: The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.
