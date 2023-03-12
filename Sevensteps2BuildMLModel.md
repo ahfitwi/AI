@@ -3,6 +3,10 @@
 - AI is not a one-size-fits-all technology
 - AI is new and daunting to many
 - Many have established methodologies that help ensure success
+### Program
+- [Input] --> [Processing: Constants & Vars] --> [Output]
+### AI
+- [Input] --> [Processing: Constants, Vars, InfoLearnt] <--> [Program] --> [Learnt Data]
 ## Steps To Build ML MOdel:
 1. **Understand & Identify The Business Problem**:
   - Understand and identify the business problem and define success
