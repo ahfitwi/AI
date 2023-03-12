@@ -46,3 +46,6 @@
     - On Fog environemnt
     - On Cloud environemnt
 8. **Repeat The Process and Make Improvement**:
+  - Iteratively improve the model
+  - Identify what has worked well and what hasn't worked well
+  - Make improvements iteratively
