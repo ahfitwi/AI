@@ -23,7 +23,7 @@
 4. **Determine The Model's Features, and Train The Model**: It includes the ff
   - **Model Technique Selection**
   - **Training**
-  - **Hyperparameter Setting**
+  - **Hyperparameter Tunning and Setting**
   - **Validation**
   - **Development & Testing**
   - **Algorithm Selection**
