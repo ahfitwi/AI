@@ -1,4 +1,4 @@
-# ML Comprises The Following Major steps
+# Major Steps In Building ML Models
 - ML allows the systems to make decisions autonomously without any external support.
 - Decisions are made when the machine is able to learn from the data and understand the underlying patterns that are contained within it.
 - Through pattern matching and further analysis, they return the outcome which can be a ***classification*** or a ***prediction/regression***.
