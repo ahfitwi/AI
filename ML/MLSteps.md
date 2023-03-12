@@ -2,6 +2,8 @@
 - ML allows the systems to make decisions autonomously without any external support.
 - Decisions are made when the machine is able to learn from the data and understand the underlying patterns that are contained within it.
 - Through pattern matching and further analysis, they return the outcome which can be a ***classification*** or a ***prediction/regression***.
+- ML Model <-- [Data, Algorithm, Training]
+- There is a science about how to build an ML.
 
 ### 1. Data Collection
   - Collect/garner/gather/glean data applicable to your problem statement you are aspiing to solve using ML Model.
@@ -25,7 +27,7 @@
               - Email Spam Detection
               - Diagnostics
               - Image Classification
-            - **Regression/Prediction**: response is continuous
+            - **Regression/Prediction**: response is continuous (Predictors vs Depenednet Vars)
               - Risk Assessment
               - Score Prediction
           - Common Supervised Learning Algorithms:
@@ -35,7 +37,6 @@
             - **Support Vector Machine**: SVMs are powerful classifiers that are used for classifying the binary dataset into two classes with the help of hyperplanes. Effective in cases where a number of dimensions is bigger than the number of samples.
             - **Logistic Regression**: A statistical model that in its basic form uses a logistic function to model a binary variable, although more complex extensions exist.In multivariate analysis , logistic regression (or logit regression) is estimating the parameters of a logistic model (a sort of binary regression).
             - **Artificial Neural Networks(ANN)**: Modeled after the human brain and they learn from the data over time. They form a much larger portion of machine learning called Deep Learning.
-            - 
           - Usecases of Supervised Learning:
             - ANN --> Face Recognition
               - CNN is a type of ANN used for identifying the faces of people. Draw/extract features from the image through various filters. Finally, if there is a high similarity score between the input image and the image in the database, a positive match is provided. Baidu has FR in its VSS and expanding to airports, flight check-in.
@@ -47,13 +48,14 @@
         - Unsupervised Learning Algorithms are based on **Hebbian Learning**.
         - **Cluster analysis** is one of the most widely used techniques in supervised learning.
         - Input (fruits: orange, green peppers, & Apple togehter) --> Model --> Output (clustered: [Green peppers], [Apples], [Oranges])
+        - Draw inferences/patterns from input w/o references to labeledd outcomes.
         - Major Supervised Learning Models:
-          - Dimensionality Reduction (SVD/PCA)
+          - Dimensionality Reduction (SVD/PCA: reduce dimensions of feature sets and are of two types, namely feature elimination or feature extraction)
             - Text Mining
             - Face Recognition
             - Big Data Visualization
             - Image Recognition
-          - Clustering
+          - Clustering (customer segmentation, Fraud Detection, & Document Classification)
             - Biology
             - City Planning
             - Targeting Marketing
@@ -106,7 +108,7 @@ Concluding the article, I took a look at the common steps of ML model creation/c
   - refers to predicting values that are inside of a range of data points.
   - the act of estimating a value within two known values that exist within a sequence of values.
 
-## 8 Types of Customer Segmentations
+## Types of Customer Segmentations (8)
   - Demographic (Age, Gender, Income, Education, Social Status, Family, Life Stage, Occupation)
   - Geographic (country, city, Density, Language, Climate, Area, Population)
   - Behavioral (Benefits Sought, Purchase, Usage, Intent, Occasion, Buyer Stage, User Stattus, Life Cycle Stage, Engagement)
