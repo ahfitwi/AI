@@ -15,19 +15,19 @@
   - Build or select a model that suites your situation
   - Possible Types of Models:
       1. **Supervised Learning**: when there is a precise mapping between input-output data.
-        - Dataset, in this case, is labeled, meaning that the algorithm identifies the features explicitly and carries out predictions or classification accordingly.
-        - As the training period progresses, the algorithm is able to identify the relationships between the variables/classes such that we can predict a new outcome.
+          - Dataset, in this case, is labeled, meaning that the algorithm identifies the features explicitly and carries out predictions or classification accordingly.
+          - As the training period progresses, the algorithm is able to identify the relationships between the variables/classes such that we can predict a new outcome.
 
-            Input (datasets) + Annotations (tell what each input are) --> ML Model --> Prediction
-        - Major Supervised Learning Models:
-          - Classification: response is discrete and belongs to a set of classes. It takes labeled/annotated inputs.
-            - Fraud Detection
-            - Email Spam Detection
-            - Diagnostics
-            - Image Classification
-          - Regression: response is continuous
-            - Risk Assessment
-            - Score Prediction
+              Input (datasets) + Annotations (tell what each input are) --> ML Model --> Prediction
+          - Major Supervised Learning Models:
+            - Classification: response is discrete and belongs to a set of classes. It takes labeled/annotated inputs.
+              - Fraud Detection
+              - Email Spam Detection
+              - Diagnostics
+              - Image Classification
+            - Regression: response is continuous
+              - Risk Assessment
+              - Score Prediction
       2. **Unsupervised Learning**:
         - Dimensionality Reduction (SVD/PCA)
           - Text Mining
