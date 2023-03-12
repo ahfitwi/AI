@@ -1,8 +1,9 @@
 # Concolutional Neural Network (CNN) Components In A Nutshell
 1. **Generic Architecture**
   - Convolutional neural networks, also known as CNNs, are a specific type of neural networks 
-  - that are generally composed of the following layers:
-  - Input Image --> Convolutions(Filtering) --> Pooling (Feature Map)--> Fully Connected
+  - Generally composed of the following layers:
+  - Input Image --> Convolutions(Filtering) --> Pooling (Feature Map)--> Flattening -->Fully Connected
+  - CNN --> Feature Extraction
 2. **Layers**: Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers.
   - **Convolution Layer (CONV)**:The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input II with respect to its dimensions. 
     - Its hyperparameters include the filter size FF and stride SS. The resulting output OO is called feature map or activation map.
