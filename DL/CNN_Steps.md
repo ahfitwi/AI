@@ -24,7 +24,7 @@
 5. **Hyperparameters Filtering**: The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.
   - Dimensions of a filter
   - Stride
-  - Zero-padding
+  - Zero-padding/Boarder Problem Solving
 6. **Hyperparameter Tuning**
   - Parameter compatibility in convolution layer
   - Understanding the complexity of the model
