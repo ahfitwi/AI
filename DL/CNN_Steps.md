@@ -17,15 +17,13 @@
 3. **Activation Functions**: decides whether a neuron should be activated or not. This means that it will decide whether the neuron's input to the network is important or not in the process of prediction using simpler mathematical operations.
   - Linear: $f(x) = x$
   - Tanh: $tanh(x)$
-  - Rectified Linear Unit: $max(0, x)$
+  - Rectified Linear Unit: ReLU--> $max(0, x); Leaky\ ReLU --> max(\epislon z, z); ELU --> max(\alpha(e^z-1), z)$
   - Sigmoid: $\sigma(x) = \frac{1}{1+e^{-x}}$
-  - SOftmax: $p = \begin{bmatrix} p_1\\ .\\ .\\.\\p_n \end{bmatrix}$, where $p_i = \frac{e^{x_i}}{\sum_{j=1}^n e^{x_j}}$
+  - SOftmax: $p = \begin{bmatrix} p_1 \\ . \\ . \\ . \\ p_n \end{bmatrix}$, where $p_i = \frac{e^{x_i}}{\sum_{j=1}^n e^{x_j}}$
 5. **Hyperparameters Filtering**: The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.
   - **Dimensions of a filter**: A filter of size $F\times F$ applied to an input containing $C$ channels is a $F \times F \times C$ volume that performs convolutions on an input of size $I \times I \times C$ and produces an output feature map (also called activation map) of size $O \times O \times 1$.
     - Remark: the application of KK filters of size $F\times F$ results in an output feature map of size $O \times O \times K$.
   - 
 6. **Hyperparameter Tuning**
-7. **Fully Connected (FC)**:The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.
-  - 
-8. **Applications**
-  - 
+  - **Parameter compatibility in convolution layer**
+  - **Understanding the complexity of the model**
