@@ -87,11 +87,14 @@
             - Inventory Management
             - Robot Navigation
 ### 4. Model Training
-  - 
+  - Pass the training dataset into the model so that the model will be able to extract features, calculate weights, and understand what they are.
 ### 5. Performance Evaluation
-  - 
+  - Test how accurate the model can classifyor predict the test data
 ### 6. Performance/Hyperparameter Tunning
-  -
+  - Trial and Error Step: Tune the number of Nodes, Functions, Filters, ...
+  - Usually model construction is iterative
+### 7. Do Prediction: 
+  - Start Using the Model to predict new real-world data
 ## Summary
 Concluding the article, I took a look at the common steps of ML model creation/construction/building from data collection through hyperparameter tuning, and different types of machine learning paradigms. I went through supervised, unsupervised and reinforcement learning algorithms. I also discussed the several common algorithms that are part of these three categories accompanied by their various real-life applications.
 
@@ -112,5 +115,9 @@ Concluding the article, I took a look at the common steps of ML model creation/c
   - Technographic
   - Psychographic (Lifestyle, AIO, Concerns, Personality, Value, Attitudes)
   - Life Cycle Stage
-## 
+## Customer Classification
+  - Fan
+  - Supporter
+  - Loyal
+  - Roamers
 ##
