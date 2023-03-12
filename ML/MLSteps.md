@@ -19,8 +19,9 @@
       1. **Supervised Learning**: when there is a precise mapping between input-output data.
           - Dataset, in this case, is labeled, meaning that the algorithm identifies the features explicitly and carries out predictions or classification accordingly.
           - As the training period progresses, the algorithm is able to identify the relationships between the variables/classes such that we can predict a new outcome.
-
-              Input (datasets) + Annotations (tell what each input sets are) --> ML Model --> Prediction
+          - Input (datasets) + Annotations (tell what each input sets are) --> ML Model --> Prediction
+          -  Algorithm consists of a target/outcome variable (or dependent variable) which is to be predicted from a given set of predictors (independent variables).
+          -  Training continues until the model acieves the desired level of accuracy on the training data.
           - Major Supervised Learning Models:
             - **Classification**: response is discrete and belongs to a set of classes. It takes labeled/annotated inputs.
               - Fraud Detection
@@ -43,6 +44,7 @@
         
       2. **Unsupervised Learning**:
         - Data is **not explicitly labeled into different classes**, that is, there are no labels. 
+        - No target or outcome variable to predict/estimate (w/c is called unlabelled data)
         - The model is able to learn from the data by finding implicit patterns.
         - Unsupervised Learning algorithms identify the data based on their densities, structures, similar segments, and other similar features. 
         - Unsupervised Learning Algorithms are based on **Hebbian Learning**.
@@ -72,6 +74,7 @@
           - Sales companies are able to identify customer segments that are most likely to use their services. Companies can evaluate the customer segments and then decide to sell their product to maximize the profits.
           - One such company that is performing brand marketing analytics using Machine Learning is an Israeli based startup – Optimove. The goal of this company is to ingest and process the customer data in order to make it accessible to the marketers.
           - They take it one step further by providing smart insights to the marketing team, allowing them to reap the maximum profit out of their product marketing.
+          - Used for recommendation systems or clustering (segments customers into d/t groups for specific interventions)
       4. **Reinforcement Learning**: Trial and Error
         - covers more area of Artificial Intelligence which allows machines to interact with their dynamic environment in order to reach their goals. With this, machines and software agents are able to evaluate the ideal behavior in a specific context.
         - With the help of this reward feedback, agents are able to learn the behavior and improve it in the longer run. This simple feedback reward is known as a reinforcement signal.
