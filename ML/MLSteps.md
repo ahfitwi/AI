@@ -13,6 +13,7 @@
   - Proprtional and Diversified Data to avoid biases (Alg, data, and societal)
       - If you use 10K images for can and 5K images for dog to create/build a model, it will be biased towards the cat.
   - Create Training, Evaluation, and Testing Sets
+  - https://keras.io/api/preprocessing/image/
 ### 3. Model Selection
   - Build or select a model that suites your situation
   - Possible Types of Models:
