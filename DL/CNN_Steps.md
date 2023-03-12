@@ -6,6 +6,7 @@
   - CNN --> Feature Extraction
 2. **Layers**: Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers.
   - $O = [i-k]+1$ --> 5-3+1 = 3
+  - $O = \frac{[i-k]}{s}+1$ --> [5-3]/2+1 = 2
   - **Convolution Layer (CONV)**:The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input II with respect to its dimensions. 
     - Its hyperparameters include the filter size FF and stride SS. The resulting output OO is called feature map or activation map.
   - **Pooling (POOL)**: The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.
