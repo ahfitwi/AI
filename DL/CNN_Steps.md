@@ -17,7 +17,7 @@
   - Tanh: $tanh(x)$
   - Rectified Linear Unit: $max(0, x)$
   - Sigmoid: $\sigma(x) = \frac{1}{1+e^{-x}}$
-  - SOftmax: $p = \begin{bmatrix} p_1\\ .\\ .\\.\\p_n \end{bmatrix}$, where $p_i = \frac{e^{x_i}}{sum_{j=1}^n e^{x_j}}$
+  - SOftmax: $p = \begin{bmatrix} p_1\\ .\\ .\\.\\p_n \end{bmatrix}$, where $p_i = \frac{e^{x_i}}{\sum_{j=1}^n e^{x_j}}$
 5. **Hyperparameters Filtering**: The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.
   - **Dimensions of a filter**: A filter of size $F\times F$ applied to an input containing $C$ channels is a $F \times F \times C$ volume that performs convolutions on an input of size $I \times I \times C$ and produces an output feature map (also called activation map) of size $O \times O \times 1$.
     - Remark: the application of KK filters of size $F\times F$ results in an output feature map of size $O \times O \times K$.
