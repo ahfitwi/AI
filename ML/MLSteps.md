@@ -116,8 +116,8 @@ Concluding the article, I took a look at the common steps of ML model creation/c
   - Psychographic (Lifestyle, AIO, Concerns, Personality, Value, Attitudes)
   - Life Cycle Stage
 ## Customer Classification
+  - Loyal
   - Fan
   - Supporter
-  - Loyal
   - Roamers
 ##
