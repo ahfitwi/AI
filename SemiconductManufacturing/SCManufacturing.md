@@ -82,4 +82,5 @@
     - Marking/Labeling (Samsung)
     - Final Test (FATP)
 
-**Preprocessing (wafer making to Etching) and Postprocessing
+**Preprocessing (wafer making to Etching) and Postprocessing**
+- SC Ecosystem
