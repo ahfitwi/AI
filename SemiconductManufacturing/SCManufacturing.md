@@ -1,8 +1,8 @@
 # Semiconductor Manufacturing Process
 - Constantly evolving in the enormous SC ecosystem
 - Si is the main material of SC
-- There are 8 essential SC manufacturing process
-- To be usable, the Si goes through the following SC manufacturing process
+- There are 8 essential steps in the SC manufacturing process
+- To be usable, the Si goes through the following SC manufacturing process steps
 
 1. **Wafer Manufacturing**: make wafer from sands
   - SCs are stacked high and solid to form a complex structure similar to a high-rising building. 
