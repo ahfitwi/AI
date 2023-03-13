@@ -99,8 +99,7 @@
 - Safety
 
 ### Famous Quote of Klause
-- - In the world, it is not the big fish which eats the small fish, it is the fast fish which 
--    eats the slow fish.
--    Klause Schwab, Founder and Executive Chairman of World Economic Forum
+- In the world, it is not the big fish which eats the small fish, it is the fast fish which eats the slow fish.
+    Klaus Schwab, Founder and Executive Chairman of World Economic Forum
 #### CD: Compact Disk, not certificate of deposit, Physics for Scientists and Engineers 9th Edition
 by Raymond A. Serway  (Author), John W. Jewett (Author)
