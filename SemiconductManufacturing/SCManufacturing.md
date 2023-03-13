@@ -60,12 +60,26 @@
   - It is a process that allows electricity to flow by depositing a thin metal film using materials
     such as aluminum, titaium, or tungsten so that electricity can pass through the SC well.
   - The chip manufacturing processes are now coming toward completion
-14. **Electrical Die Sorting (EDS)**:
+7. **Electrical Die Sorting (EDS)**:
   - The process of testing electrical characteristics to make sure each individual chip has 
     reached the desired quality level.
   - This is the process of testing to ensure flawless SC chips.
   - Inother words, it is a testing step to sort out defective chips
   - Yield is a percentage of prime chips relative to the maximum chip count on a single wafer.
-  $$Yield = \frac{Number of working chips}{Max number of designed chips}\times 100$$
-  - c
-16. **Packaging**:
+  $$Yield = \frac{Number\ of\ working\ chips}{Max\ number\ of\ designed\ chips}\times 100$$
+  
+8. **Packaging**:
+  - This is the last process, the packing process
+  - The wafer completed through the previous steps are cut into individual SC chips
+    that can be loaded on an electronic device.
+  - An idividual chip must have a path to exchange electrical signals with the outside and
+    have a form to protect it from various external elements.
+  - Major Taks here are:
+    - Wafer Cutting
+    - Chip Bonding with PCB
+    - Wire Bonding with PCB
+    - Molding Process
+    - Marking/Labeling (Samsung)
+    - Final Test (FATP)
+
+**Preprocessing (wafer making to Etching) and Postprocessing
