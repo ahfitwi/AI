@@ -17,8 +17,12 @@
   illumination.
   $$S_{sq} = \sum_{(n,m)\epsilon N} (I(n,m)-J(n,m))^2$$
 - Normalized:
-   $$\frac{S_{sq}}{\sqrt{\sum{I[n,m]^2\times[n,m]^2}}} = \sum_{(n,m)\epsilon N} (I(n,m)-J(n,m))^2$$
+   $$\frac{S_{sq}}{\sqrt{\sum{I[n,m]^2\times[n,m]^2}}}$$
 - OpenCV Template Matching.
+### Cross-Correlation
+$$C_{crr} = \sum_{(n,m)\epsilon N} (I(n,m)\timesJ(n,m))^2$$
+- Normalized:
+- $$\frac{C_{crr}}{\sqrt{\sum{I[n,m]^2\times[n,m]^2}}}$$
 ### PHASH
 
 ### K-Mean Clustering
