@@ -26,7 +26,7 @@
    $$\frac{S_{sq}}{\sqrt{\sum{I[n,m]^2\times[n,m]^2}}}$$
 - OpenCV Template Matching.
 ### Cross-Correlation
-              $$C_{crr} = \(I[n,m] \times J[n,m])^2$$
+              $$C_{crr} = (I[n,m] \times J[n,m])^2$$
 - Normalized:
               $$\frac{C_{crr}}{\sqrt{\sum{I[n,m]^2\times [n,m]^2}}}$$
 ### PHASH (Perceptual hashing)
