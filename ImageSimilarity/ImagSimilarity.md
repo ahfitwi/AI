@@ -29,7 +29,15 @@
               $$C_{crr} = \sum_{(n,m)\epsilon N} (I(n,m)\times J(n,m))^2$$
 - Normalized:
               $$\frac{C_{crr}}{\sqrt{\sum{I[n,m]^2\times [n,m]^2}}}$$
-### PHASH
+### PHASH (Perceptual hashing)
+- Allows the comparison of two images by looking at the number of different bits between the input and the image it is being compared against. This difference is known as the Hamming distance. A very simple way of using this algorithm would be to create a list of all known images and their perceptual hash.
+- Determine whether 2 images are equal or not
+- This hash is a fingerprint, which can be used to compare images by calculating the Hamming distance.
+- average hashing (aHash)
+- perception hashing (pHash)
+- difference hashing (dHash)
+
+### Cosine Similarity
 
 ### K-Mean Clustering
 
@@ -45,4 +53,5 @@
 
 ### References
 - https://datascience.stackexchange.com/questions/48642/how-to-measure-the-similarity-between-two-images
-- 
+- https://medium.com/@jeff.lee.1990710/image-similarity-using-vgg16-transfer-learning-and-cosine-similarity-98571d8055e3
+- https://medium.com/@salmariazi/computing-image-similarity-with-pre-trained-keras-models-3959d3b94eca
