@@ -20,9 +20,9 @@
    $$\frac{S_{sq}}{\sqrt{\sum{I[n,m]^2\times[n,m]^2}}}$$
 - OpenCV Template Matching.
 ### Cross-Correlation
-$$C_{crr} = \sum_{(n,m)\epsilon N} (I(n,m)\timesJ(n,m))^2$$
+$$C_{crr} = \sum_{(n,m)\epsilon N} (I(n,m)\times J(n,m))^2$$
 - Normalized:
-- $$\frac{C_{crr}}{\sqrt{\sum{I[n,m]^2\times[n,m]^2}}}$$
+- $$\frac{C_{crr}}{\sqrt{\sum{I[n,m]^2\times [n,m]^2}}}$$
 ### PHASH
 
 ### K-Mean Clustering
