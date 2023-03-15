@@ -50,7 +50,9 @@ $$C_{crr} = \sum_{(n,m)\epsilon N} (I[n,m] \times J[n,m])^2$$
 - SSIM Structural similarity Index
 - L2 Norm (Or Euclidean Distance)
 - Mahalanobis Distance
-
+### Dimentionality Reduction
+- PCA
+- SVD
 ### References
 - https://datascience.stackexchange.com/questions/48642/how-to-measure-the-similarity-between-two-images
 - https://medium.com/@jeff.lee.1990710/image-similarity-using-vgg16-transfer-learning-and-cosine-similarity-98571d8055e3
